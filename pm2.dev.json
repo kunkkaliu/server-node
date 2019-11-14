@@ -1,0 +1,24 @@
+{
+    "apps": [{
+        "name": "server_node_dev",
+        "cwd": "./",
+        "script": "./app.js",
+        "env": {
+            "PORT": 7001,
+            "NODE_ENV": "development"
+        },
+        "args": [],
+        "max_restarts": 30,
+        "watch": true,
+        "ignore_watch": [
+            "./node_modules",
+            "./logs"
+        ],
+        "exec_mode": "fork",
+        "instances": 1,
+        "instance_var": "INSTANCE_ID",
+        "error_file": "./logs/pm2-err.log",
+        "out_file": "./logs/pm2-out.log",
+        "log_date_format": "\\[YYYY-MM-DD HH:mm:ss\\]"
+    }]
+}
