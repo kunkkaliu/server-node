@@ -23,7 +23,7 @@
     "pm2": "^3.5.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
-    "sequelize": "^5.7.6",
+    "sequelize": "^5.15.1",
     "supports-color": "^6.1.0"
   }
 }
